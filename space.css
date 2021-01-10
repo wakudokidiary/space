@@ -161,7 +161,7 @@ li {
 
 .house-4 .image-left {
   /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/08.jpg); */
-  background-image: url('./08.JPG');
+  background-image: url('./08.jpg');
   background-size: cover;
 }
 
