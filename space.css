@@ -110,7 +110,7 @@ li {
   float:left;
   width:50%;
   height:405px;
-  background-color:black;
+  /* background-color:black; */
   /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/07.jpg); */
   background-image: url('./07.JPG');  
   background-size:cover;
