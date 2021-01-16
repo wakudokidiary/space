@@ -1,13 +1,13 @@
-*{
-  margin:0;
-  padding:0;
+@media (max-width: 1200px) {
+
+* {
   box-sizing:border-box;
 }
 
 .box1 {
-  /* background-color:red; */
+  background-color:red;
   width:100%;
-  height:750px;
+  height:500px;
   /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/04.jpg); */
   background-image: url('./04.JPG');
   background-size:cover;
@@ -16,68 +16,81 @@
 }
 
 .box1 h1 {
-  padding-top:300px;
-  font-size:80px;
+  padding-top:200px;
+  font-size:55px;
 }
 
 header {
   background-color:#800000;
   width:100%;
-  height:70px;
+  height:60px;
 }
 
-
+ul {
+  width:2000px;
+}
 
 li {
   float:left;
   list-style:none;
-  padding:25px 80px;
+  padding:20px 45px;
   font-size:15px;
   color:white;
+}
+
+.box2 h2 {
+  font-size:40px;
+  padding-top:15px;
+}
+
+.box2 p {
+  font-size:18px;  
+  padding-top:5px;
+  padding-bottom:80px;
+  padding-left:70px;
+  line-height:30px;
 }
 
 .box2 {
   /* background-color:pink; */
   width:100%;
-  height:1700px;
+  height:1100px;
   text-align:center;
 }
 
 .box2-one {
   /* background-color:green; */
   width:100%;
-  height:420px;
+  height:270px;
 }
 
 .one-left {
   float:left;
   width:50%;
-  height:405px;
+  height:250px;
   /* background-color:blue; */
 }
 
 .one-right {
   float:left;
   width:50%;
-  height:405px;
+  height:250px;
   /* background-color:black; */
   /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/05.jpg); */
   background-image: url('./05.JPG');  
   background-size:cover;
 }
 
-
-
 .box2-two {
-  /* background-color:red; */
+  /* background-color:green; */
   width:100%;
-  height:420px;
+  height:270px;
 }
 
 .two-left {
   float:left;
   width:50%;
-  height:405px;
+  height:250px;
   /* background-color:black; */
   /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/06.jpg); */
   background-image: url('./06.JPG');  
@@ -87,73 +100,56 @@ li {
 .two-right {
   float:left;
   width:50%;
-  height:405px;
+  height:250px;
   /* background-color:blue; */
 }
 
-
-
 .box2-three {
-  /* background-color:blue; */
+  /* background-color:green; */
   width:100%;
-  height:420px;
+  height:270px;
 }
 
 .three-left {
   float:left;
   width:50%;
-  height:405px;
+  height:250px;
   /* background-color:blue; */
 }
 
 .three-right {
   float:left;
   width:50%;
-  height:405px;
-  background-color:black;
+  height:250px;
+  /* background-color:black; */
   /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/07.jpg); */
   background-image: url('./07.JPG');  
   background-size:cover;
 }
 
 .box2-four {
-  /* background-color:brown; */
+  /* background-color:green; */
   width:100%;
-  height:420px;
+  height:270px;
 }
 
 .four-left {
   float:left;
   width:50%;
-  height:405px;
+  height:250px;
   /* background-color:black; */
-  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/06.jpg); */
-  background-image: url('./06.JPG');  
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/08.jpg); */
+  background-image: url('./08.JPG');  
   background-size:cover;
 }
 
 .four-right {
   float:left;
   width:50%;
-  height:405px;
+  height:250px;
   /* background-color:blue; */
 }
 
-
-
-
-.box2 h2 {
-  font-size:50px;
-  padding-top:40px;
-}
-
-.box2 p {
-  font-size:20px;  
-  padding-top:30px;
-  padding-bottom:80px;
-  padding-left:70px;
-  line-height:40px;
-}
 
 .text {
   position:relative;
@@ -161,62 +157,74 @@ li {
 
 .one-left img {
   position:absolute;
-  width:300px;
-  height:300px;
-  top:80px;
+  width:200px;
+  height:200px;
+  top:60px;
   left:10px;
 }
 
 .two-right img {
   position:absolute;
-  width:300px;
-  height:300px;
-  top:90px;
+  width:200px;
+  height:200px;
+  top:60px;
   left:10px;
 }
 
 .three-left img {
   position:absolute;
-  width:300px;
-  height:300px;
-  top:80px;
+  width:200px;
+  height:200px;
+  top:60px;
   left:10px;
 }
 
 .four-right img {
   position:absolute;
-  width:300px;
-  height:300px;
-  top:100px;
+  width:200px;
+  height:200px;
+  top:60px;
   left:10px;
 }
 
 footer {
   background-color:#ffa500;
   width:100%;
-  height:370px;
+  height:320px;
 }
 
 footer img {
   float:left;
-  margin:20px 20px;
-}
-
-.info {
-  clear:both;
+  margin:20px 8px;
+  width:48px;
+  height:50px;
 }
 
 .info p {
-  margin:5px 15px;
+  margin:2px 15px;
+  font-size:15px;
 }
 
 .info .name {
-  font-size:45px;
+  font-size:25px;
   margin:0px 20px;
 }
 
-footer a {
-  color:black;
-  text-decoration:none;  
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
