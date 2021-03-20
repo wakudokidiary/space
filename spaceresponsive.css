@@ -8,7 +8,7 @@
   background-color:red;
   width:100%;
   height:500px;
-  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/04.jpg); */
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/space/ホームページ写真/04.jpg); */
   background-image: url('./04.JPG');
   background-size:cover;
   color:white;
@@ -16,8 +16,8 @@
 }
 
 .box1 h1 {
-  padding-top:200px;
-  font-size:55px;
+  padding-top:150px;
+  font-size:100px;
 }
 
 header {
@@ -33,7 +33,7 @@ ul {
 li {
   float:left;
   list-style:none;
-  padding:20px 45px;
+  padding:18px 45px;
   font-size:15px;
   color:white;
 }
@@ -41,33 +41,34 @@ li {
 .box2 h2 {
   font-size:40px;
   padding-top:15px;
+  padding:15px 0px 20px 0px;
 }
 
 .box2 p {
-  font-size:18px;  
+  font-size:40px;  
   padding-top:5px;
   padding-bottom:80px;
-  padding-left:70px;
-  line-height:30px;
+  padding-left:0px;
+  line-height:50px;
 }
 
 .box2 {
   /* background-color:pink; */
   width:100%;
-  height:1100px;
+  height:2230px;
   text-align:center;
 }
 
 .box2-one {
   /* background-color:green; */
   width:100%;
-  height:270px;
+  height:550px;
 }
 
 .one-left {
   float:left;
   width:50%;
-  height:250px;
+  height:545px;
   /* background-color:blue; */
 }
 
@@ -76,7 +77,7 @@ li {
   width:50%;
   height:250px;
   /* background-color:black; */
-  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/05.jpg); */
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/space/ホームページ写真/05.jpg); */
   background-image: url('./05.JPG');  
   background-size:cover;
 }
@@ -84,7 +85,7 @@ li {
 .box2-two {
   /* background-color:green; */
   width:100%;
-  height:270px;
+  height:550px;
 }
 
 .two-left {
@@ -92,7 +93,7 @@ li {
   width:50%;
   height:250px;
   /* background-color:black; */
-  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/06.jpg); */
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/space/ホームページ写真/06.jpg); */
   background-image: url('./06.JPG');  
   background-size:cover;
 }
@@ -100,20 +101,20 @@ li {
 .two-right {
   float:left;
   width:50%;
-  height:250px;
+  height:550px;
   /* background-color:blue; */
 }
 
 .box2-three {
   /* background-color:green; */
   width:100%;
-  height:270px;
+  height:550px;
 }
 
 .three-left {
   float:left;
   width:50%;
-  height:250px;
+  height:550px;
   /* background-color:blue; */
 }
 
@@ -122,7 +123,7 @@ li {
   width:50%;
   height:250px;
   /* background-color:black; */
-  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/07.jpg); */
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/space/ホームページ写真/07.jpg); */
   background-image: url('./07.JPG');  
   background-size:cover;
 }
@@ -130,7 +131,7 @@ li {
 .box2-four {
   /* background-color:green; */
   width:100%;
-  height:270px;
+  height:580px;
 }
 
 .four-left {
@@ -138,7 +139,7 @@ li {
   width:50%;
   height:250px;
   /* background-color:black; */
-  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/08.jpg); */
+  /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/space/ホームページ写真/08.jpg); */
   background-image: url('./08.jpg');  
   background-size:cover;
 }
@@ -146,7 +147,7 @@ li {
 .four-right {
   float:left;
   width:50%;
-  height:250px;
+  height:580px;
   /* background-color:blue; */
 }
 
@@ -157,56 +158,56 @@ li {
 
 .one-left img {
   position:absolute;
-  width:200px;
-  height:200px;
-  top:60px;
-  left:10px;
+  width:400px;
+  height:400px;
+  top:160px;
+  left:550px;
 }
 
 .two-right img {
   position:absolute;
-  width:200px;
-  height:200px;
-  top:60px;
-  left:10px;
+  width:400px;
+  height:400px;
+  top:180px;
+  left:-450px;
 }
 
 .three-left img {
   position:absolute;
-  width:200px;
-  height:200px;
-  top:60px;
-  left:10px;
+  width:400px;
+  height:400px;
+  top:180px;
+  left:550px;
 }
 
 .four-right img {
   position:absolute;
-  width:200px;
-  height:200px;
-  top:60px;
-  left:10px;
+  width:400px;
+  height:400px;
+  top:180px;
+  left:-450px;
 }
 
 footer {
   background-color:#ffa500;
   width:100%;
-  height:320px;
+  height:700px;
 }
 
 footer img {
   float:left;
-  margin:20px 8px;
-  width:48px;
-  height:50px;
+  margin:20px 30px;
+  width:100px;
+  height:100px;
 }
 
 .info p {
   margin:2px 15px;
-  font-size:15px;
+  font-size:40px;
 }
 
 .info .name {
-  font-size:25px;
+  font-size:80px;
   margin:0px 20px;
 }
 
