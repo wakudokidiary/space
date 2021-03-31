@@ -81,12 +81,12 @@ header {
   height:60px;
 }
 
-ul {
+header ul {
   width:2000px;
   display:none;    
 }
 
-li {
+header li {
   float:left;
   list-style:none;
   padding:18px 45px;
